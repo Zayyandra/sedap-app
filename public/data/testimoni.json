@@ -1,0 +1,34 @@
+{
+  "testimoni": [
+    {
+      "id": 1,
+      "avatar": "https://avatar.iran.liara.run/public",
+      "name": "John Doe",
+      "review": "Aplikasi Sedap sangat membantu dalam memilih makanan yang tepat sesuai dengan selera dan kebutuhan gizi saya. Mudah digunakan dan menyediakan berbagai pilihan yang menyenangkan."
+    },
+    {
+      "id": 2,
+      "avatar": "https://avatar.iran.liara.run/public/boy",
+      "name": "Jane Smith",
+      "review": "Sangat puas dengan aplikasi Sedap. Fitur pencarian makanan sangat membantu saya untuk menemukan hidangan yang sesuai dengan keinginan dan kesehatan saya."
+    },
+    {
+      "id": 3,
+      "avatar": "https://avatar.iran.liara.run/public/girl",
+      "name": "Michael Brown",
+      "review": "Aplikasi Sedap membuat pemilihan makanan menjadi lebih mudah dan menyenangkan. Saya dapat dengan cepat menemukan resep dan restoran dengan makanan yang sesuai dengan kebutuhan saya."
+    },
+    {
+      "id": 4,
+      "avatar": "https://avatar.iran.liara.run/public/boy?username=Scott",
+      "name": "Sarah Lee",
+      "review": "Aplikasi yang sangat berguna dalam memberikan rekomendasi makanan sehat dan bergizi. Pengingat dan notifikasi makanan yang disarankan sangat membantu."
+    },
+    {
+      "id": 5,
+      "avatar": "https://avatar.iran.liara.run/public/girl?username=Maria",
+      "name": "David Wilson",
+      "review": "Saya sangat terbantu dengan aplikasi Sedap dalam memilih makanan yang sesuai dengan kebutuhan diet saya. Sangat memudahkan dalam menemukan pilihan yang tepat."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "kode_produk": "PRD001",
+      "nama_produk": "Nasi Goreng Spesial",
+      "harga": 25000,
+      "stok": 10
+    },
+    {
+      "kode_produk": "PRD002",
+      "nama_produk": "Mie Ayam Bakso",
+      "harga": 22000,
+      "stok": 0
+    },
+    {
+      "kode_produk": "PRD003",
+      "nama_produk": "Sate Ayam Madura",
+      "harga": 30000,
+      "stok": 5
+    },
+    {
+      "kode_produk": "PRD004",
+      "nama_produk": "Ayam Geprek Mozzarella",
+      "harga": 27000,
+      "stok": 3
+    },
+    {
+      "kode_produk": "PRD005",
+      "nama_produk": "Es Teh Jumbo",
+      "harga": 7000,
+      "stok": 0
+    }
+  ]
+}

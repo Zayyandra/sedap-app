@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nasi Goreng Spesial",
+      "image": "https://i.pinimg.com/736x/bb/1a/b7/bb1ab72656f0272dadc3334c455de10e.jpg",
+      "price": 25000
+    },
+    {
+      "id": 2,
+      "name": "Mie Ayam Bakso",
+      "image": "https://i.pinimg.com/736x/56/3e/d7/563ed7451a14d1dd0f77346b5bebb84c.jpg",
+      "price": 22000
+    },
+    {
+      "id": 3,
+      "name": "Sate Ayam Madura",
+      "image": "https://i.pinimg.com/736x/72/f8/ce/72f8ced3fe85346cc1d8275709110b76.jpg",
+      "price": 30000
+    },
+    {
+      "id": 4,
+      "name": "Ayam Geprek Mozzarella",
+      "image": "https://i.pinimg.com/736x/23/84/c4/2384c4bf12ce3874ef53dde4f19e3f33.jpg",
+      "price": 27000
+    },
+    {
+      "id": 5,
+      "name": "Es Teh Jumbo",
+      "image": "https://i.pinimg.com/736x/78/1e/9d/781e9df1612ff62845fcd9c4b8e3b8e6.jpg",
+      "price": 7000
+    }
+  ]
+}

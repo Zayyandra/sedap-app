@@ -1,0 +1,213 @@
+[
+    {
+      "orderId": "ORD001",
+      "customerName": "Rina Lestari",
+      "status": "Pending",
+      "totalPrice": 250000,
+      "orderDate": "2025-04-01"
+    },
+    {
+      "orderId": "ORD002",
+      "customerName": "Doni Saputra",
+      "status": "Completed",
+      "totalPrice": 135000,
+      "orderDate": "2025-04-02"
+    },
+    {
+      "orderId": "ORD003",
+      "customerName": "Siti Rahma",
+      "status": "Cancelled",
+      "totalPrice": 80000,
+      "orderDate": "2025-04-02"
+    },
+    {
+      "orderId": "ORD004",
+      "customerName": "Arif Hidayat",
+      "status": "Completed",
+      "totalPrice": 180000,
+      "orderDate": "2025-04-03"
+    },
+    {
+      "orderId": "ORD005",
+      "customerName": "Lisa Marlina",
+      "status": "Pending",
+      "totalPrice": 210000,
+      "orderDate": "2025-04-04"
+    },
+    {
+      "orderId": "ORD006",
+      "customerName": "Robby Nugraha",
+      "status": "Completed",
+      "totalPrice": 125000,
+      "orderDate": "2025-04-04"
+    },
+    {
+      "orderId": "ORD007",
+      "customerName": "Anita Sari",
+      "status": "Pending",
+      "totalPrice": 230000,
+      "orderDate": "2025-04-05"
+    },
+    {
+      "orderId": "ORD008",
+      "customerName": "Fajar Ridwan",
+      "status": "Completed",
+      "totalPrice": 170000,
+      "orderDate": "2025-04-06"
+    },
+    {
+      "orderId": "ORD009",
+      "customerName": "Nina Aprilia",
+      "status": "Cancelled",
+      "totalPrice": 90000,
+      "orderDate": "2025-04-06"
+    },
+    {
+      "orderId": "ORD010",
+      "customerName": "Bayu Pratama",
+      "status": "Completed",
+      "totalPrice": 110000,
+      "orderDate": "2025-04-07"
+    },
+    {
+      "orderId": "ORD011",
+      "customerName": "Dewi Anggraini",
+      "status": "Pending",
+      "totalPrice": 220000,
+      "orderDate": "2025-04-07"
+    },
+    {
+      "orderId": "ORD012",
+      "customerName": "Tegar Ramadhan",
+      "status": "Completed",
+      "totalPrice": 150000,
+      "orderDate": "2025-04-08"
+    },
+    {
+      "orderId": "ORD013",
+      "customerName": "Maya Sari",
+      "status": "Cancelled",
+      "totalPrice": 60000,
+      "orderDate": "2025-04-09"
+    },
+    {
+      "orderId": "ORD014",
+      "customerName": "Zainal Arifin",
+      "status": "Completed",
+      "totalPrice": 200000,
+      "orderDate": "2025-04-10"
+    },
+    {
+      "orderId": "ORD015",
+      "customerName": "Sarah Oktavia",
+      "status": "Pending",
+      "totalPrice": 175000,
+      "orderDate": "2025-04-10"
+    },
+    {
+      "orderId": "ORD016",
+      "customerName": "Rio Saputro",
+      "status": "Completed",
+      "totalPrice": 195000,
+      "orderDate": "2025-04-11"
+    },
+    {
+      "orderId": "ORD017",
+      "customerName": "Fitriani",
+      "status": "Pending",
+      "totalPrice": 165000,
+      "orderDate": "2025-04-12"
+    },
+    {
+      "orderId": "ORD018",
+      "customerName": "Galih Mahendra",
+      "status": "Cancelled",
+      "totalPrice": 95000,
+      "orderDate": "2025-04-12"
+    },
+    {
+      "orderId": "ORD019",
+      "customerName": "Mira Sundari",
+      "status": "Completed",
+      "totalPrice": 140000,
+      "orderDate": "2025-04-13"
+    },
+    {
+      "orderId": "ORD020",
+      "customerName": "Yusuf Ibrahim",
+      "status": "Pending",
+      "totalPrice": 210000,
+      "orderDate": "2025-04-14"
+    },
+    {
+      "orderId": "ORD021",
+      "customerName": "Intan Fadhilah",
+      "status": "Completed",
+      "totalPrice": 125000,
+      "orderDate": "2025-04-14"
+    },
+    {
+      "orderId": "ORD022",
+      "customerName": "Dani Saputra",
+      "status": "Pending",
+      "totalPrice": 245000,
+      "orderDate": "2025-04-15"
+    },
+    {
+      "orderId": "ORD023",
+      "customerName": "Wulan Cahyani",
+      "status": "Completed",
+      "totalPrice": 180000,
+      "orderDate": "2025-04-16"
+    },
+    {
+      "orderId": "ORD024",
+      "customerName": "Andi Permana",
+      "status": "Cancelled",
+      "totalPrice": 100000,
+      "orderDate": "2025-04-16"
+    },
+    {
+      "orderId": "ORD025",
+      "customerName": "Tina Marlina",
+      "status": "Completed",
+      "totalPrice": 210000,
+      "orderDate": "2025-04-17"
+    },
+    {
+      "orderId": "ORD026",
+      "customerName": "Riko Dwi",
+      "status": "Pending",
+      "totalPrice": 160000,
+      "orderDate": "2025-04-18"
+    },
+    {
+      "orderId": "ORD027",
+      "customerName": "Citra Amelia",
+      "status": "Completed",
+      "totalPrice": 155000,
+      "orderDate": "2025-04-18"
+    },
+    {
+      "orderId": "ORD028",
+      "customerName": "Budi Santoso",
+      "status": "Cancelled",
+      "totalPrice": 70000,
+      "orderDate": "2025-04-19"
+    },
+    {
+      "orderId": "ORD029",
+      "customerName": "Nia Ramadhani",
+      "status": "Completed",
+      "totalPrice": 190000,
+      "orderDate": "2025-04-20"
+    },
+    {
+      "orderId": "ORD030",
+      "customerName": "Vina Aprilia",
+      "status": "Pending",
+      "totalPrice": 225000,
+      "orderDate": "2025-04-21"
+    }
+  ]
+  
