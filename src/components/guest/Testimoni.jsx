@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import testimoniData from '../../data/testimoni.json';
 
 export default function Testimoni() {
   const [testimoni, setTestimoni] = useState([]);
 
   useEffect(() => {
-    fetch('/data/testimoni.json')  // Pastikan file JSON berada di lokasi yang tepat
-      .then((res) => res.json())
-      .then((data) => setTestimoni(data.testimoni))  // Ganti 'data.testimonials' menjadi 'data.testimoni'
-      .catch((err) => console.error('Gagal mengambil data:', err));
+    setTestimoni(testimoniData.testimoni); // pastikan struktur JSON-nya memiliki "testimoni"
   }, []);
 
   return (

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import produkData from '../../data/produk.json';
 
 export default function CekStok() {
   const [kode, setKode] = useState('');
@@ -7,10 +8,7 @@ export default function CekStok() {
   const [dataProduk, setDataProduk] = useState([]);
 
   useEffect(() => {
-    fetch('/data/produk.json')
-      .then((res) => res.json())
-      .then((data) => setDataProduk(data.products))
-      .catch((err) => console.error('Gagal memuat data produk:', err));
+    setDataProduk(produkData.products); // pastikan struktur JSON-nya memiliki "products"
   }, []);
 
   const handleSubmit = (e) => {

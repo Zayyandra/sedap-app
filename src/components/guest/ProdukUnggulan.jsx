@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import productData from '../../data/products.json';
 
 export default function ProdukUnggulan() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('/data/products.json')
-      .then((res) => res.json())
-      .then((data) => setProducts(data.products))
-      .catch((err) => console.error('Gagal mengambil data:', err));
+    setProducts(productData.products);
   }, []);
 
   return (
