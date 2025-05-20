@@ -39,7 +39,7 @@ function App() {
     <Suspense fallback={<Loading />}>
       <Routes>
         <Route element={<MainLayout />}>
-          <Route path="/" element={<Dashboard />} />
+          {/* <Route path="/" element={<Dashboard />} /> */}
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/error/400" element={<ErrorPage400 />} />
@@ -58,7 +58,7 @@ function App() {
         </Route>
 
         <Route element={<GuestLayout />}>
-          {/* <Route path="/" element={<HomePage />} /> */}
+          <Route path="/" element={<HomePage />} />
         </Route>
       </Routes>
     </Suspense>
