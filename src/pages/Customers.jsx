@@ -69,7 +69,7 @@ export default function Customers() {
         </table>
       </div>
 
-      /* Pagination */
+      
       <div className="flex justify-end items-center gap-2 mt-4">
         <button
           onClick={handlePrevious}

@@ -1,5 +1,5 @@
-import { FaUser } from "react-icons/fa"; 
-import { MdSpaceDashboard, MdErrorOutline } from "react-icons/md";
+import { FaUser } from "react-icons/fa";
+import { MdSpaceDashboard, MdErrorOutline, MdFastfood } from "react-icons/md";
 import { AiOutlinePlus } from "react-icons/ai";
 import { BsPeopleFill } from "react-icons/bs";
 import { BiCart, BiLockAlt } from "react-icons/bi";
@@ -8,19 +8,28 @@ import { NavLink } from "react-router-dom";
 
 const menuClass = ({ isActive }) =>
   `flex cursor-pointer items-center rounded-xl p-4 space-x-2
-  ${isActive ? 
-      "text-hijau bg-green-200 font-extrabold" : 
-      "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
+  ${
+    isActive
+      ? "text-hijau bg-green-200 font-extrabold"
+      : "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
   }`;
 
 export default function Sidebar() {
   return (
-    <div id="sidebar" className="flex min-h-screen w-90 flex-col bg-white p-10 shadow-lg">
-      
+    <div
+      id="sidebar"
+      className="flex min-h-screen w-90 flex-col bg-white p-10 shadow-lg"
+    >
       {/* Logo */}
       <div id="sidebar-logo" className="flex flex-col">
-        <span id="logo-title" className="font-poppins-ExtraBold text-[48px] text-gray-900">
-          Sedap <b id="logo-dot" className="text-hijau">.</b>
+        <span
+          id="logo-title"
+          className="font-poppins-ExtraBold text-[48px] text-gray-900"
+        >
+          Sedap{" "}
+          <b id="logo-dot" className="text-hijau">
+            .
+          </b>
         </span>
         <span id="logo-subtitle" className="font-semibold text-gray-400">
           Modern Admin Dashboard
@@ -30,7 +39,6 @@ export default function Sidebar() {
       {/* Menu List */}
       <div id="sidebar-menu" className="mt-10">
         <ul id="menu-list" className="space-y-3">
-
           {/* Dashboard */}
           <li>
             <NavLink id="menu-1" to="/" className={menuClass}>
@@ -63,6 +71,13 @@ export default function Sidebar() {
             </NavLink>
           </li>
 
+          <li>
+            <NavLink id="menu-5" to="/products" className={menuClass}>
+              <MdFastfood className="mr-4 text-xl" />
+              Products
+            </NavLink>
+          </li>
+
           {/* Error Pages */}
           <li>
             <NavLink to="/error/400" className={menuClass}>
@@ -84,11 +99,13 @@ export default function Sidebar() {
           </li>
         </ul>
       </div>
-      
 
       {/* Footer */}
       <div id="sidebar-footer" className="mt-auto">
-        <div id="footer-card" className="bg-hijau px-4 py-2 rounded-md shadow-lg mb-10 flex items-center">
+        <div
+          id="footer-card"
+          className="bg-hijau px-4 py-2 rounded-md shadow-lg mb-10 flex items-center"
+        >
           <div id="footer-text" className="text-white text-sm">
             <span className="flex-1 p-2">
               Please organize your menus through button below!
