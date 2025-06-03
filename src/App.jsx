@@ -35,6 +35,7 @@ const Login = React.lazy(() => import("./pages/auth/Login"));
 const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+const Notes = React.lazy(() => import("./pages/Notes"))
 
 function App() {
   return (
@@ -52,6 +53,8 @@ function App() {
           <Route path="/orders/add" element={<AddOrder />} />
           <Route path="/UserList" element={<UserList />} />
           <Route path="/products/:id" element={<ProductDetail/>} /> 
+          <Route path="/notes" element={<Notes />} />
+
         </Route>
         <Route path="/*" element={<ErrorPage400 />} />
 

@@ -1,3 +1,4 @@
+import { CgNotes } from "react-icons/cg"; 
 import { FaUser } from "react-icons/fa";
 import { MdSpaceDashboard, MdErrorOutline, MdFastfood } from "react-icons/md";
 import { AiOutlinePlus } from "react-icons/ai";
@@ -95,6 +96,12 @@ export default function Sidebar() {
             <NavLink to="/error/403" className={menuClass}>
               <RiShieldKeyholeLine className="mr-4 text-xl" />
               Error 403
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/notes/" className={menuClass}>
+              <CgNotes  className="mr-4 text-xl" />
+              Notes
             </NavLink>
           </li>
         </ul>
